@@ -28,5 +28,11 @@
         android:id="@+id/btn_fourth"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="design自适应版底部导航栏" />
+        android:text="使用第三方开源库SlidingMenu" />
+
+    <Button
+        android:id="@+id/btn_fifth"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="使用谷歌自带DrawerLayout 包裹NavigationView" />
 </LinearLayout>

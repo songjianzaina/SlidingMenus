@@ -18,6 +18,8 @@
         <activity android:name=".one.FirstImplementionsActivity"></activity>
         <activity android:name=".two.SecondImplementionsActivity"></activity>
         <activity android:name=".three.ThirdImplementionsActivity"></activity>
+        <activity android:name=".four.jeremyfeinstein.slidingmenu.lib.FourthImplementionsActivity"></activity>
+        <activity android:name=".five.FifthImplementionsActivity"></activity>
     </application>
 
 </manifest>
