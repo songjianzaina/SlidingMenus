@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/drawer_personal_rl"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        >
+
+        <TextView
+            android:id="@+id/drawer_personal_number_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="138-8888-8888"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/drawer_user_manual_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="使用指南"
+        android:textColor="#2b2b2b"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/drawer_feedback_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="信息反馈"
+        android:textColor="#2b2b2b"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/drawer_about_us_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="关于我们"
+        android:textColor="#2b2b2b"
+        android:textSize="22sp" />
+</LinearLayout>
