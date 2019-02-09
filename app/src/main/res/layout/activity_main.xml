@@ -10,7 +10,7 @@
         android:id="@+id/btn_first"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="自定义仿QQ侧滑菜单" />
+        android:text="自定义仿QQ侧滑 include的布局" />
 
     <Button
         android:id="@+id/btn_second"
@@ -22,7 +22,7 @@
         android:id="@+id/btn_third"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="用RadioButton实现底部导航栏" />
+        android:text="自定义普通侧滑菜单 include布局" />
 
     <Button
         android:id="@+id/btn_fourth"

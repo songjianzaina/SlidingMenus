@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.insworks.slidingmenus.one.FirstImplementionsActivity;
+import com.insworks.slidingmenus.three.ThirdImplementionsActivity;
 import com.insworks.slidingmenus.two.SecondImplementionsActivity;
 
 import butterknife.BindView;
@@ -40,16 +41,16 @@ public class MainActivity extends AppCompatActivity {
     @OnClick({R.id.btn_first, R.id.btn_second,R.id.btn_third,R.id.btn_fourth})
     public void onViewClicked(View view) {
         switch (view.getId()) {
-            case R.id.btn_first://自定义slidingMenu仿QQ侧滑
+            case R.id.btn_first://自定义仿QQ侧滑 include的布局
                 startActivity(new Intent(getApplicationContext(), FirstImplementionsActivity.class));
                 break;
             case R.id.btn_second://使用谷歌自带DrawerLayout 包裹两个fragment
                 startActivity(new Intent(getApplicationContext(), SecondImplementionsActivity.class));
                 break;
- /*           case R.id.btn_third://用RadioButton实现底部导航栏
+            case R.id.btn_third://自定义普通侧滑菜单 include布局
                 startActivity(new Intent(getApplicationContext(), ThirdImplementionsActivity.class));
                 break;
-            case R.id.btn_fourth://adaptablebottomnavigation
+         /*   case R.id.btn_fourth://adaptablebottomnavigation
                 startActivity(new Intent(getApplicationContext(), AdaptableActivity.class));
                 break;*/
         }

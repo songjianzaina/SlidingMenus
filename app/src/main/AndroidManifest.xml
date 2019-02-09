@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".one.FirstImplementionsActivity"></activity>
         <activity android:name=".two.SecondImplementionsActivity"></activity>
+        <activity android:name=".three.ThirdImplementionsActivity"></activity>
     </application>
 
 </manifest>

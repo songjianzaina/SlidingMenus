@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.insworks.slidingmenus.three.SlideMenuView
+        android:id="@+id/smv_slide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/layout_main" />
+
+        <include
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            layout="@layout/layout_menu" />
+    </com.insworks.slidingmenus.three.SlideMenuView>
+
+</RelativeLayout>
